@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+#top-bar {
+  width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+ 
+}
+#search-box {
+  background-color: #F3F2F8;
+  padding: 9px 0 9px 13px;
+  width: 200px;
+  font-size: 14px;
+  border: 0 grey solid;
+  position: relative;
+  top: 50px;
+  float: left;
+}
+#magnifying-glass {
+  position: relative;
+  top: 49px;
+  height: 38px;
+}
+#logo {
+  position: relative;
+  left: 40%;
+  top: -30px;
+}
+.clear {
+  clear: both;
+}
+#shopping-div-container {
+  float: right;
+}
+.shopping-div {
+ float: left;
+}
+.shopping-button {
+ position: relative;
+ top: -9px;
+ padding: 0 10px 0 0;
+}
+#main-menu {
+  width: 1200px;
+  height: 15px;
+  background-color:#7EC14E;
+  border-radius: 22px;
+  padding: 24px 12px;
+  text-align: center;
+  position: fixed;
+  z-index: 8;
+}
+#main-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 15px 0 15px;
+  border-right: 1px grey solid;
+  color: white;
+  font-weight: bold;
+}
+
+.no-border {
+  border: none !important;
+}
+#main-page-container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 89px;
+}
+#promo-div {
+  font-family: 'Schoolbell', cursive;
+  font-weight: bold;
+  font-size: 19px;
+}
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+.featured-content {
+  width: 48%;
+  font-size: 20px;
+  float: left;
+}
+.featured-content img {
+  height: 380px;
+  transition: transform .2s;
+}
+.featured-content img:hover {
+  height: 380px;
+  transform: scale(1.1);
+}
+.bg-grey {
+  background-color: rgb(241, 238, 238);
+  padding: 0 10px 0 10px;
+  height: 380px;
+}
+button {
+  background-color: #7EC14E;
+  height: 40px;
+  width: 300px;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+}
+button:hover {
+  background-color: green;
+}
+.service img {
+  float: left;
+  margin-right: 6px;
+}
+#service-divs-container {  
+  padding-left: 15%;
+}
+.service {
+  margin: 15px 13px 15px 0;
+  border-right: 1px grey solid;
+  width: 300px;
+  float: left;
+}
+.service:hover {
+  background-color: green;
+  color: aliceblue;
+}
+.service-description p {
+  position: relative;
+  top: -10px;
+  font-size: 13px;
+}
+.healthy-meat {
+  height: 350px;
+  background-color: rgb(231, 223, 228);
+  width: 300px;
+  transition: transform .2s;
+  margin-right: 20px;
+  float: left;
+}
+.healthy-meat:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+#healthy-meat-container {
+  padding-left: 15%;
+} 
+.healthy-meat img {
+  height: 300px;
+}
+.healthy-meat p {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -23px;
+  text-align: center;
+}
+#footer-div-container {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  margin-top: 100px;
+}
+#newsletter {
+ 
+ 
+}
+
+#newsletter p {
+ color:#7EC14E;
+ position: relative;
+ top: 40px;
+}
+
+#newsletter-form {
+  margin-top: 50px;
+  padding: 16px;
+  width: 250px;
+  border-radius: 3px;
+  border: none;
+}
+#sign-up-button {
+  width: 70px;
+  height: 48px;
+  margin-left: 10px;
+  font-size: 12px;
+   border-radius: 3px;
+}
+
+#ethical-food-container {
+  margin-bottom: 40px;
+   margin-top: 40px;
+}
+#ethical-food-container img {
+  margin-top: 30px;
+  width: 60%;
+  position: absolute;
+  border-radius: 15px;
+  z-index: 1;
+}
+.ethical-food {
+  width: 70%;
+  height: 430px;
+  color: aliceblue;
+  background-color: #7EC14E;
+  padding: 16px 17px 0 20px;
+  opacity: 0.8;
+  transition: transform .2s;
+  border-radius: 15px;
+  position: relative;
+  left: 20%;
+    z-index: 2;
+}
+.ethical-food p {
+  font-size: 28px;
+}
+.ethical-food:hover {
+  color: green;
+  opacity: 1;
+  transform: scale(1.1);
+  background-color: white;
+  border-top: 3px green solid;
+}
